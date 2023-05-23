@@ -100,7 +100,7 @@ app.get("/reviews", function (request, response) {
   }
 });
 
-// user posted a review
+//  user posted a review
 app.post("/reviews", function (request, response) {
 
   let errors = checkServiceCredentials();
